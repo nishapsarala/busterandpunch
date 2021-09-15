@@ -11,6 +11,11 @@ class Boot
     /**
      * @var string
      */
+    private string $word;
+
+    /**
+     * @var string
+     */
     private string $locale = 'en-gb';
 
     /**
@@ -100,7 +105,7 @@ class Boot
     {
         return sprintf(
             "%s/%s/%s",
-            implode('/', array($this->getRoot(), $this->dictionaryPPath)),
+            implode('/', array($this->getRoot(), $this->dictionaryPath)),
             $this->getLocale(),
             $name
         );
