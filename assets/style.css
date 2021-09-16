@@ -1,0 +1,9 @@
+.content {
+ 	max-width: 50%;
+    margin: auto;
+    background: #f9f7f7;
+    padding: 10px;
+}
+fieldset{
+	    margin-bottom: 5% !important;
+}

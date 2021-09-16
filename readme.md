@@ -9,3 +9,16 @@ PHP Version: 7.4
 5. Make any changes deemed beneficial
 6. Create a PR in your forked personal REPO
 7. Don't create a PR to this REPO
+
+===========================================
+
+Execution:
+    
+    Bug fixes: Spell correction found in a Variable "dictionaryPath" in Src/Boot.php
+    
+    Feature fix: 
+     1) Added new styles in assets folder
+     2) index page modified to add searches and change tiles on demand and display results
+     
+    
+![busterandpunch](https://user-images.githubusercontent.com/63558378/133441998-7afa292b-620a-49ed-85e4-e5579b936fbb.PNG)

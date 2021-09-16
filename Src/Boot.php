@@ -11,6 +11,11 @@ class Boot
     /**
      * @var string
      */
+    private string $word;
+
+    /**
+     * @var string
+     */
     private string $locale = 'en-gb';
 
     /**
