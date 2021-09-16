@@ -144,7 +144,11 @@ class Scrabble
     {
         /**
          * todo replace this with a method to stip non alpha chars
-         */
+         */ 
+        
+        //$string = preg_replace( '/[^a-z0-9 ]/i', '', $string);
+        $string = preg_replace( '/[\W]/', '', $string);
+
         return $string;
     }
 
